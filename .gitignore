@@ -1,0 +1,42 @@
+# dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# Firebase
+.firebase
+.firebaserc
+firestore-debug.log
+firebase-debug.log
+firebase-debug.*.log
+
+# production and build artifacts
+/build
+/lib
+/dist
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+
+# testing
+/coverage
+
+# misc
+.DS_Store
+.vscode/
+.idea/
+*.sublime-workspace
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+.cache/
+.tmp/
+
+# Firebase Functions
+/functions/lib
+/functions/node_modules

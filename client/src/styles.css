@@ -1,0 +1,31 @@
+/* Basic styles for the entire page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.slide-enter {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  .slide-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+  }
+  .slide-exit {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .slide-exit-active {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+  }
+  

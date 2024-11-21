@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                     // Target modern JavaScript version
+    "module": "CommonJS",                   // Module format compatible with Node.js
+    "rootDir": "src",                       // Source files directory
+    "outDir": "./lib",                       // Output directory for compiled files
+    "strict": true,                         // Enable strict type checking
+    "esModuleInterop": true,                // Import compatibility with ES modules
+    "skipLibCheck": true                    // Skip type checking for library files
+  },
+  "include": ["src/**/*.ts"],               // Include all TypeScript files in the src directory
+  "exclude": ["node_modules"]               // Exclude dependencies
+}
